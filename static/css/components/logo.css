@@ -1,0 +1,14 @@
+.logo {
+  display: inline-block;
+  padding-bottom: 2px;
+  border-bottom: 2px solid var(--gray);
+}
+.logo-text {
+  font-family: 'Work Sans', sans-serif;
+  color: var(--white);
+  font-weight: 300;
+  font-size: 26px;
+  line-height: normal;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+}

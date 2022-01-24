@@ -1,0 +1,13 @@
+.btn {
+  width: 100%;
+  padding: 12px 18px;
+  border: none;
+  outline: none;
+  font: var(--button);
+}
+.btn-secondary {
+  color: var(--white);
+  border: 1px solid var(--white);
+  background-color: var(--primary-font);
+  border-radius: 4px;
+}
