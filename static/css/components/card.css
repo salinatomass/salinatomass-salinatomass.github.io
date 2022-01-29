@@ -25,3 +25,6 @@
   width: 20px;
   margin-right: 10px;
 }
+.card-item p {
+  color: var(--black);
+}

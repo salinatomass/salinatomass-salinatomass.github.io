@@ -1,0 +1,50 @@
+.portfolio-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 60px;
+}
+.portfolio-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 120px;
+}
+.portfolio-projects-images {
+  display: flex;
+  margin-bottom: 12px;
+}
+.portfolio-projects-images img {
+  width: 200px;
+  max-width: 50%;
+  height: max-content;
+}
+.portfolio-projects-images img:nth-child(2n) {
+  padding-top: 30px;
+}
+.portfolio-projects-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.portfolio-projects-details span {
+  font: var(--headline-3);
+  color: var(--golden);
+  margin-bottom: 12px;
+}
+.portfolio-projects-skill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.portfolio-projects-skill h4 {
+  color: var(--gray);
+}
+.portfolio-projects-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

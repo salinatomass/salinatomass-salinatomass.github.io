@@ -6,6 +6,7 @@
 @import url('./containers/header.css');
 @import url('./containers/hero.css');
 @import url('./containers/about.css');
+@import url('./containers/portfolio.css');
 
 .hidden {
   display: none;
@@ -19,6 +20,7 @@
 
 body {
   font: var(--body-1);
+  color: var(--gray);
   background-color: var(--primary-color);
 }
 
@@ -29,4 +31,26 @@ body {
   height: 100%;
   max-width: 1366px;
   margin: 0 auto;
+}
+
+h1 {
+  font: var(--headline-2);
+  color: var(--white);
+}
+h2.section-title {
+  font: var(--headline-2);
+  text-transform: uppercase;
+  color: var(--gray);
+  margin-bottom: 10px;
+}
+h4.section-subtitle {
+  text-decoration: underline;
+}
+h3 {
+  font: var(--headline-3);
+  color: var(--white);
+}
+h4 {
+  font: var(--headline-4);
+  color: var(--white);
 }

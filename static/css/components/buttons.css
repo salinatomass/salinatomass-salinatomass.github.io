@@ -4,10 +4,15 @@
   border: none;
   outline: none;
   font: var(--button);
+  border-radius: 4px;
+}
+.btn-primary {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  background-color: var(--white);
 }
 .btn-secondary {
   color: var(--white);
   border: 1px solid var(--white);
   background-color: var(--primary-color);
-  border-radius: 4px;
 }

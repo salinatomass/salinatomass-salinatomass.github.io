@@ -9,10 +9,6 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.hero-description h1 {
-  font: var(--headline-2);
-  color: var(--white);
-}
 .hero-description p {
   font: var(--headline-4);
   color: var(--gray);
