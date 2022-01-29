@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 .certificates-courses-item {
   height: 50px;
@@ -33,7 +33,7 @@
 
 .certificates-courses-wrapper .line {
   position: relative;
-  top: -20px;
+  top: -10px;
 }
 .certificates-courses-details {
   margin-top: 10px;

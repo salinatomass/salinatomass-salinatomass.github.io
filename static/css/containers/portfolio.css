@@ -14,15 +14,18 @@
 }
 .portfolio-projects-images {
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 12px;
+  margin: 0 auto;
 }
 .portfolio-projects-images img {
-  width: 200px;
+  width: 260px;
   max-width: 50%;
   height: max-content;
 }
 .portfolio-projects-images img:nth-child(2n) {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 .portfolio-projects-details {
   display: flex;
