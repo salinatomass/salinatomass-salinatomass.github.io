@@ -1,16 +1,16 @@
 .portfolio-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 60px;
+  gap: 80px;
 }
 .portfolio-projects {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 160px;
+  gap: 180px;
 }
 .portfolio-projects-images {
   display: flex;

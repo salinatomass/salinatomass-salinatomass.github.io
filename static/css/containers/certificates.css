@@ -1,14 +1,14 @@
 @import url('../components/line.css');
 
 .certificates-container {
-  padding-top: 60px;
+  padding-top: 80px;
 }
 .certificates-courses {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 36px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 .certificates-courses-wrapper {
   display: flex;
