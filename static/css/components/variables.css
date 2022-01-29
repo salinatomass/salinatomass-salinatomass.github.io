@@ -11,6 +11,10 @@
   --editor-orange: #f0b441;
   --editor-blue: #5ea1ff;
 
+  /* Card */
+  --card-border: 2px solid rgba(190, 205, 227, 0.1);
+  --card-shadow: 8px 10px 34px rgba(0, 0, 0, 0.1);
+
   /* Font Styles */
   --primary-font: 'Inter', sans-serif;
 
@@ -23,5 +27,5 @@
   --body-2: 400 normal 14px / 23px var(--primary-font);
   --button: 400 normal 18px / 18px var(--primary-font);
   --caption: 400 normal 12px / 12px var(--primary-font);
-  --link: 400 normal 16px / 19px var(--primary-font);
+  --link: 400 normal 18px / 21px var(--primary-font);
 }

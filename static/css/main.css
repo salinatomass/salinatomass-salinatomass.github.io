@@ -8,6 +8,8 @@
 @import url('./containers/about.css');
 @import url('./containers/portfolio.css');
 @import url('./containers/certificates.css');
+@import url('./containers/contact.css');
+@import url('./containers/footer.css');
 
 .hidden {
   display: none;

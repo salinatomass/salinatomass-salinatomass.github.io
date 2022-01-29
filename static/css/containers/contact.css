@@ -1,0 +1,25 @@
+.contact {
+  position: relative;
+  top: 100px;
+}
+.contact-container {
+  max-width: 690px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  text-align: center;
+  background-color: var(--white);
+  border: var(--card-border);
+  box-shadow: var(--card-shadow);
+  border-radius: 20px;
+}
+.contact-container h2 {
+  font: var(--headline-4);
+  color: var(--primary-color);
+}
+.contact-container button {
+  width: 70%;
+  border-radius: 36px;
+  margin-top: 16px;
+}

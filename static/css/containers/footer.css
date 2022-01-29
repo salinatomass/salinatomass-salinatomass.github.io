@@ -1,0 +1,29 @@
+.footer {
+  background-color: var(--white);
+}
+.footer-container {
+  padding-top: 130px;
+  padding-bottom: 60px;
+}
+.footer-nav {
+  margin-bottom: 36px;
+}
+.footer-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  text-align: center;
+}
+.footer-nav ul li {
+  list-style: none;
+}
+.footer-nav ul li a {
+  font: var(--link);
+  color: var(--primary-color);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.footer-nav ul li a.highlight {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
