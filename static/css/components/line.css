@@ -1,0 +1,11 @@
+.line {
+  display: inline-block;
+  width: 120px;
+  height: 3px;
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+}
+.line-vertical {
+  transform: rotate(90deg);
+  transform-origin: left top;
+}

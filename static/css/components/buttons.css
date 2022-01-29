@@ -5,6 +5,8 @@
   outline: none;
   font: var(--button);
   border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
 }
 .btn-primary {
   color: var(--primary-color);

@@ -30,6 +30,7 @@
 }
 .about-contact h4 {
   font: var(--headline-4);
+  color: var(--black);
   font-weight: 400;
 }
 .about-contact p {

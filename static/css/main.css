@@ -7,6 +7,7 @@
 @import url('./containers/hero.css');
 @import url('./containers/about.css');
 @import url('./containers/portfolio.css');
+@import url('./containers/certificates.css');
 
 .hidden {
   display: none;
