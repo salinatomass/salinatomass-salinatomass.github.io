@@ -1,0 +1,61 @@
+@import url('../components/card.css');
+
+.about {
+  background-color: var(--white);
+}
+
+.about-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.about-header h2 {
+  font: var(--headline-2);
+  text-transform: uppercase;
+  color: var(--gray);
+  margin-bottom: 10px;
+}
+.about-header h4 {
+  font: var(--headline-4);
+  color: var(--black);
+  text-decoration: underline;
+}
+.about-description {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.about-description h3 {
+  font: var(--headline-4);
+  color: var(--primary-color);
+  margin-bottom: 12px;
+}
+.about-description p {
+  color: var(--black);
+}
+.about-description strong {
+  color: var(--secondary-color);
+}
+.about-contact h4 {
+  font: var(--headline-4);
+  font-weight: 400;
+}
+.about-contact p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.about-contact p strong {
+  color: var(--secondary-color);
+}
+.about-callToAction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.about-callToAction span {
+  font-weight: 700;
+  color: var(--primary-color);
+}

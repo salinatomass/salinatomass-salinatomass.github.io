@@ -5,6 +5,11 @@
 
 @import url('./containers/header.css');
 @import url('./containers/hero.css');
+@import url('./containers/about.css');
+
+.hidden {
+  display: none;
+}
 
 * {
   margin: 0;
@@ -13,7 +18,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font: var(--body-1);
   background-color: var(--primary-color);
 }
 

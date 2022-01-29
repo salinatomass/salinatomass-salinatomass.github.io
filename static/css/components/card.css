@@ -1,0 +1,27 @@
+.card {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px 25px;
+  border-radius: 20px;
+  border: 2px solid rgba(190, 205, 227, 0.1);
+  box-shadow: 8px 10px 34px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+  margin-bottom: 10px;
+  font: var(--headline-3);
+  color: var(--secondary-color);
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.card-item {
+  list-style: none;
+  display: flex;
+}
+.card-item img {
+  width: 20px;
+  margin-right: 10px;
+}

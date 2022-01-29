@@ -8,6 +8,6 @@
 .btn-secondary {
   color: var(--white);
   border: 1px solid var(--white);
-  background-color: var(--primary-font);
+  background-color: var(--primary-color);
   border-radius: 4px;
 }
