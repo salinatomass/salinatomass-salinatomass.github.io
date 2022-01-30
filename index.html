@@ -6,29 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Salinatomass | Frontend Web Developer</title>
 
-    <link rel="stylesheet" href="static/css/main.css" />
-
-    <script
-      src="https://kit.fontawesome.com/9890831b37.js"
-      crossorigin="anonymous"
-    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="static/css/main.css" />
+
+    <script async src="./static/js/main.js"></script>
   </head>
   <body>
     <header class="header">
       <div class="wrapper">
-        <div class="header-container">
-          <div class="logo">
-            <p class="logo-text">salinatomass</p>
+        <div>
+          <div class="header-container">
+            <div class="logo">
+              <p class="logo-text" translate="no">salinatomass</p>
+            </div>
+            <button class="header-menu" id="menu">
+              <img src="./assets/burger-menu.svg" alt="" />
+            </button>
+            <nav class="header-nav" id="nav">
+              <ul>
+                <a href="#about"><li>About</li></a>
+                <a href="#portfolio"><li>Portfolio</li></a>
+                <a href="#certificates"><li>Certficates</li></a>
+                <a href="#contact"><li>Contact</li></a>
+              </ul>
+            </nav>
           </div>
-          <span class="header-menu">
-            <img src="./assets/burger-menu.svg" alt="" />
-          </span>
         </div>
       </div>
     </header>
@@ -37,14 +45,20 @@
       <div class="wrapper">
         <div class="hero-container">
           <div class="hero-description">
-            <h1>Frontend Web Developer</h1>
+            <h1 translate="no">Frontend Web Developer</h1>
             <p>I like to create amazing experiences with the power of code.</p>
-            <button class="btn btn-secondary">Download resume</button>
+            <a class="btn btn-secondary">Download resume</a>
           </div>
           <div class="social-media">
-            <img src="./assets/twitter-logo.svg" alt="Twitter Logo" />
-            <img src="./assets/linkedin-logo.svg" alt="Linkedin Logo" />
-            <img src="./assets/github-logo.svg" alt="Github Logo" />
+            <a href="https://twitter.com/salinatomass" target="_blank"
+              ><img src="./assets/twitter-logo.svg" alt="Twitter Logo"
+            /></a>
+            <a href="#">
+              <img src="./assets/linkedin-logo.svg" alt="Linkedin Logo" />
+            </a>
+            <a href="https://github.com/salinatomass">
+              <img src="./assets/github-logo.svg" alt="Github Logo" />
+            </a>
           </div>
         </div>
       </div>
@@ -139,12 +153,18 @@
             </p>
             <div class="about-callToAction">
               <div class="social-media">
-                <img src="./assets/twitter-logo-dark.svg" alt="Twitter Logo" />
-                <img
-                  src="./assets/linkedin-logo-dark.svg"
-                  alt="Linkedin Logo"
-                />
-                <img src="./assets/github-logo-dark.svg" alt="Github Logo" />
+                <a href="https://twitter.com/salinatomass" target="_blank"
+                  ><img src="./assets/twitter-logo-dark.svg" alt="Twitter Logo"
+                /></a>
+                <a href="#">
+                  <img
+                    src="./assets/linkedin-logo-dark.svg"
+                    alt="Linkedin Logo"
+                  />
+                </a>
+                <a href="https://github.com/salinatomass">
+                  <img src="./assets/github-logo-dark.svg" alt="Github Logo" />
+                </a>
               </div>
               <span>Or</span>
               <button class="btn btn-secondary">Contact</button>
@@ -407,9 +427,15 @@
             </ul>
           </nav>
           <div class="social-media">
-            <img src="./assets/twitter-logo-dark.svg" alt="Twitter Logo" />
-            <img src="./assets/linkedin-logo-dark.svg" alt="Linkedin Logo" />
-            <img src="./assets/github-logo-dark.svg" alt="Github Logo" />
+            <a href="https://twitter.com/salinatomass" target="_blank"
+              ><img src="./assets/twitter-logo-dark.svg" alt="Twitter Logo"
+            /></a>
+            <a href="#">
+              <img src="./assets/linkedin-logo-dark.svg" alt="Linkedin Logo" />
+            </a>
+            <a href="https://github.com/salinatomass">
+              <img src="./assets/github-logo-dark.svg" alt="Github Logo" />
+            </a>
           </div>
         </div>
       </div>

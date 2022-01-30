@@ -1,10 +1,10 @@
 .header {
-  background-color: rgba(19, 39, 67, 0.9);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1;
+  background-color: rgba(19, 39, 67, 0.9);
 }
 .header-container {
   width: 100%;
@@ -16,8 +16,46 @@
 .header-menu {
   width: 30px;
   height: 20px;
+  border: none;
+  outline: none;
+  background-color: transparent;
 }
 .header-menu img {
   width: 100%;
   height: 100%;
+}
+
+.header-nav {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(19, 39, 67, 0.8);
+
+  display: none;
+  visibility: hidden;
+}
+.header-nav ul {
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+}
+.header-nav ul li {
+  padding: 18px 0;
+  border-top: 1px solid var(--white);
+}
+.header-nav ul a {
+  font: var(--link);
+  color: var(--white);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+}
+.header-nav.visible {
+  display: block;
+  visibility: visible;
 }

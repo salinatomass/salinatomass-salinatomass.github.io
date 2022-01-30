@@ -18,7 +18,6 @@
   gap: 5px;
 }
 .card-item {
-  list-style: none;
   display: flex;
 }
 .card-item img {

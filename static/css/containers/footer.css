@@ -14,9 +14,6 @@
   gap: 36px;
   text-align: center;
 }
-.footer-nav ul li {
-  list-style: none;
-}
 .footer-nav ul li a {
   font: var(--link);
   color: var(--primary-color);
