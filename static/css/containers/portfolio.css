@@ -12,6 +12,9 @@
   justify-content: space-between;
   gap: 140px;
 }
+.portfolio-header {
+  margin-bottom: 36px;
+}
 .portfolio-projects-images {
   display: flex;
   align-items: center;

@@ -1,5 +1,5 @@
 const projectTemplate = project => {
-  const { id, title, role, description } = project;
+  const { id, title, role, description, website, repository } = project;
   const primaryImage = project.images[0];
   const secondaryImage = project.images[1];
 
@@ -19,8 +19,8 @@ const projectTemplate = project => {
         <p>${description}</p>
       </div>
       <div class="portfolio-projects-buttons">
-        <a href="#" class="btn btn-primary">Live preview</a>
-        <a href="#" class="btn btn-secondary">See code</a>
+        <a href="${website}" class="btn btn-primary">Live preview</a>
+        <a href="${repository}" class="btn btn-secondary">See code</a>
       </div>
     </article>
   `;
