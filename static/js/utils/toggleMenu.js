@@ -1,6 +1,6 @@
 const toggleMenu = () => {
-  const $menu = document.getElementById('menu');
-  const $nav = document.getElementById('nav');
+  const $menu = document.querySelector('#menu');
+  const $nav = document.querySelector('#nav');
 
   $menu.addEventListener('click', () => {
     $nav.classList.toggle('visible');
