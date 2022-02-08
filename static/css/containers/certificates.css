@@ -8,35 +8,40 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 36px;
-  margin-bottom: 80px;
+  margin-bottom: 36px;
 }
 .certificates-courses-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 5px;
+  padding-top: 15px;
 }
 .certificates-courses-item {
   height: 50px;
   display: flex;
   align-items: center;
   gap: 12px;
+  margin-bottom: 5px;
 }
 .certificates-courses-item img {
   width: 36px;
   height: 36px;
 }
 .certificates-courses-item p {
-  font: var(--link);
+  font: var(--body-1);
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .certificates-courses-wrapper .line {
   position: relative;
-  top: -10px;
+  top: -15px;
 }
 .certificates-courses-details {
   margin-top: 10px;
+}
+.certificates-courses-details[open] > summary {
+  margin-bottom: 15px;
 }
 .certificates-courses-details summary {
   padding: 5px 0;
@@ -47,7 +52,7 @@
   cursor: pointer;
 }
 .certificates-courses-details .certificates-courses-wrapper {
-  padding-top: 5px;
+  padding-top: 50px;
 }
 
 .certificates-carreers-name {

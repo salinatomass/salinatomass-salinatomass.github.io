@@ -7,6 +7,9 @@ import projectsComponent from './components/projectsComponent.js';
 import certificatesComponent from './components/certificatesComponent.js';
 
 (async function load() {
+  const query = el => document.querySelector(el);
+  const queryAll = el => document.querySelectorAll(el);
+
   toggleMenu();
 
   const [skills, projects, certificates] = await Promise.all([
@@ -19,23 +22,23 @@ import certificatesComponent from './components/certificatesComponent.js';
   const frontendSkillsNode = skillsComponent(
     skills.data.filter(item => item.category === 'frontend')
   );
-  const $frontendSkillsContainer = document.querySelectorAll('.card')[0];
+  const $frontendSkillsContainer = queryAll('.card')[0];
   render(frontendSkillsNode, $frontendSkillsContainer);
 
   // COMPLEMENTARY_SKILLS_____
   const complementarySkillsNode = skillsComponent(
     skills.data.filter(item => item.category === 'complementary')
   );
-  const $complementarySkillsContainer = document.querySelectorAll('.card')[1];
+  const $complementarySkillsContainer = queryAll('.card')[1];
   render(complementarySkillsNode, $complementarySkillsContainer);
 
   // PROJECTS_____
   const projectsNode = projectsComponent(projects.data);
-  const $projectsContainer = document.querySelector('#projects');
+  const $projectsContainer = query('#projectsContainer');
   render(projectsNode, $projectsContainer);
 
   // CERTIFICATES_____
   const certificatesNode = certificatesComponent(certificates.data.courses);
-  const $certificatesContainer = document.querySelector('#certificates');
+  const $certificatesContainer = query('#certificatesContainer');
   render(certificatesNode, $certificatesContainer);
 })();

@@ -20,23 +20,22 @@
   <body>
     <header class="header">
       <div class="wrapper">
-        <div>
-          <div class="header-container">
-            <div class="logo">
-              <p class="logo-text" translate="no">salinatomass</p>
-            </div>
-            <button class="header-menu" id="menu">
-              <img src="./assets/burger-menu.svg" alt="" />
-            </button>
-            <nav class="header-nav" id="nav">
-              <ul>
-                <a href="#about"><li>About</li></a>
-                <a href="#portfolio"><li>Portfolio</li></a>
-                <a href="#certificates"><li>Certficates</li></a>
-                <a href="#contact"><li>Contact</li></a>
-              </ul>
-            </nav>
+        <div class="header-container">
+          <div class="logo">
+            <p class="logo-text">salinatomass</p>
           </div>
+          <button class="header-menu" id="menu">
+            <img src="./assets/burger-menu.svg" alt="" />
+          </button>
+          <nav class="header-nav" id="nav">
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#certificates">Certificates</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#About">Resume</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </header>
@@ -47,7 +46,7 @@
           <div class="hero-description">
             <h1 translate="no">Frontend Web Developer</h1>
             <p>I like to create amazing experiences with the power of code.</p>
-            <a class="btn btn-secondary">Download resume</a>
+            <a href="#" class="btn btn-secondary">Download resume</a>
           </div>
           <div class="social-media">
             <a href="https://twitter.com/salinatomass" target="_blank"
@@ -69,7 +68,11 @@
         <div class="about-container">
           <div class="about-header">
             <h2 class="section-title">About</h2>
-            <h4 class="section-subtitle">Who am i?</h4>
+            <a
+              href="https://github.com/salinatomass/salinatomass"
+              class="section-subtitle"
+              >Who am i?</a
+            >
           </div>
           <div class="about-description">
             <h3>Hello, I am Tomas Salina <span>Nice to meet you!</span></h3>
@@ -133,23 +136,31 @@
         <div class="portfolio-container">
           <div class="portfolio-header">
             <h2 class="section-title">Portfolio</h2>
-            <h4 class="section-subtitle">Some projects I have built</h4>
+            <a href="https://github.com/salinatomass" class="section-subtitle"
+              >Some projects I have built</a
+            >
           </div>
-          <div id="projects"></div>
+          <div id="projectsContainer"></div>
           <div class="portfolio-components">
-            <h4 class="section-subtitle">Interactive Web Components</h4>
+            <a href="https://github.com/salinatomass/" class="section-subtitle"
+              >Interactive Web Components</a
+            >
           </div>
         </div>
       </div>
     </section>
 
-    <section class="certificates">
+    <section class="certificates" id="certificates">
       <div class="wrapper">
         <div class="certificates-container">
-          <div class="certificates-courses" id="certificates">
+          <div class="certificates-courses" id="certificatesContainer">
             <div>
               <h2 class="section-title">Certificates</h2>
-              <h4 class="section-subtitle">Courses</h4>
+              <a
+                href="https://platzi.com/p/salinatomass/"
+                class="section-subtitle"
+                >Courses</a
+              >
             </div>
             <p>
               Although I think that certificates are not so relevant in this
@@ -157,7 +168,11 @@
             </p>
           </div>
           <div class="certificates-carreers">
-            <h4 class="section-subtitle">Carreers</h4>
+            <a
+              href="https://platzi.com/p/salinatomass/"
+              class="section-subtitle"
+              >Carreers</a
+            >
             <div class="certificates-carreers-container">
               <div class="certificates-carreers-name">
                 <h3>JavaScript School</h3>

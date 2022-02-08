@@ -1,10 +1,12 @@
+@import url('../components/logo.css');
+
 .header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1;
-  background-color: rgba(19, 39, 67, 0.9);
+  background-color: rgba(19, 39, 67, 0.95);
 }
 .header-container {
   width: 100%;
@@ -30,12 +32,19 @@
   top: 80px;
   left: 0;
   right: 0;
-  width: 100%;
   height: 100vh;
-  background-color: rgba(19, 39, 67, 0.8);
+  background-color: rgba(19, 39, 67, 0.95);
 
-  display: none;
+  opacity: 0;
   visibility: hidden;
+  transform: translateY(-30px);
+  transition: 0.3s transform, 0.3s opacity;
+  will-change: transform, opacity;
+}
+.header-nav.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 .header-nav ul {
   padding: 0 24px;
@@ -45,17 +54,22 @@
   height: 100%;
 }
 .header-nav ul li {
-  padding: 18px 0;
   border-top: 1px solid var(--white);
 }
 .header-nav ul a {
+  display: block;
+  padding: 18px 0;
   font: var(--link);
   color: var(--white);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1.6px;
 }
-.header-nav.visible {
-  display: block;
-  visibility: visible;
+.header-nav ul li:last-child {
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  margin-top: 5px;
+}
+.header-nav ul li:last-child a {
+  padding: 10px 0;
 }

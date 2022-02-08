@@ -1,5 +1,4 @@
 @import url('./components/variables.css');
-@import url('./components/logo.css');
 @import url('./components/buttons.css');
 @import url('./components/social-media.css');
 
@@ -40,15 +39,6 @@ h1 {
   font: var(--headline-2);
   color: var(--white);
 }
-h2.section-title {
-  font: var(--headline-2);
-  text-transform: uppercase;
-  color: var(--gray);
-  margin-bottom: 10px;
-}
-h4.section-subtitle {
-  text-decoration: underline;
-}
 h3 {
   font: var(--headline-3);
   color: var(--white);
@@ -60,4 +50,16 @@ h4 {
 
 li {
   list-style: none;
+}
+
+.section-title {
+  font: var(--headline-2);
+  color: var(--gray);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.section-subtitle {
+  font: var(--headline-4);
+  color: var(--white);
+  text-decoration: underline;
 }
