@@ -24,3 +24,23 @@
   color: var(--secondary-color);
   text-decoration: underline;
 }
+
+@media screen and (min-width: 1024px) {
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 180px;
+    padding-bottom: 60px;
+  }
+  .footer-nav {
+    margin-bottom: 0;
+  }
+  .footer-nav ul {
+    flex-direction: row;
+    align-items: center;
+  }
+  .footer-nav ul li a {
+    font-size: 18px;
+  }
+}

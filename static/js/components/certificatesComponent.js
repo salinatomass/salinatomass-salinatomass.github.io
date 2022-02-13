@@ -1,7 +1,3 @@
-const lineTemplate = `
-  <div class="line"></div>
-`;
-
 const summaryTemplate = `
   <summary>
     <p>See more</p>
@@ -22,23 +18,33 @@ const certificateTemplate = certificate => {
 
 const certificatesComponent = certificates => {
   const primaryList = certificates
-    .filter(item => item.id <= 12)
+    .filter(item => item.id < 10)
     .map(item => certificateTemplate(item))
     .join('');
-
   const secondaryList = certificates
-    .filter(item => item.id > 12)
+    .filter(item => item.id >= 10)
     .map(item => certificateTemplate(item))
     .join('');
 
-  const $detailsContainer = document.createElement('details');
-  $detailsContainer.classList.add('certificates-courses-details');
-  $detailsContainer.innerHTML = summaryTemplate + secondaryList;
+  const $mainCertificates = document.createElement('ul');
+  $mainCertificates.innerHTML = primaryList;
+  const $secondaryCertificates = document.createElement('details');
+  $secondaryCertificates.innerHTML = summaryTemplate + secondaryList;
 
-  const $certificatesContainer = document.createElement('ul');
+  const $lineUp = document.createElement('div');
+  $lineUp.classList.add('line', 'line-up');
+  const $lineDown = document.createElement('div');
+  $lineDown.classList.add('line', 'line-down');
+
+  const $certificatesContainer = document.createElement('div');
   $certificatesContainer.classList.add('certificates-courses-wrapper');
-  $certificatesContainer.innerHTML = lineTemplate + primaryList;
-  $certificatesContainer.append($detailsContainer);
+
+  $certificatesContainer.append(
+    $lineUp,
+    $mainCertificates,
+    $secondaryCertificates,
+    $lineDown
+  );
 
   return $certificatesContainer;
 };

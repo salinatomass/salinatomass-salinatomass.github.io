@@ -9,18 +9,20 @@ const projectTemplate = project => {
         <img src="${primaryImage.url}" alt="${primaryImage.alt}" />
         <img src="${secondaryImage.url}" alt="${secondaryImage.alt}" />
       </div>
-      <div class="portfolio-projects-details">
-        <span>0${id}</span>
-        <h3>${title}</h3>
-        <div class="portfolio-projects-skill">
-          <img src="./assets/bullet.svg" alt="Bullet gray" />
-          <h4>${role}</h4>
+      <div class="portfolio-projects-description">
+        <div class="portfolio-projects-details">
+          <span>0${id + 1}</span>
+          <h3>${title}</h3>
+          <div class="portfolio-projects-skill">
+            <img src="./assets/bullet.svg" alt="Bullet gray" />
+            <h4>${role}</h4>
+          </div>
+          <p>${description}</p>
         </div>
-        <p>${description}</p>
-      </div>
-      <div class="portfolio-projects-buttons">
-        <a href="${website}" class="btn btn-primary">Live preview</a>
-        <a href="${repository}" class="btn btn-secondary">See code</a>
+        <div class="portfolio-projects-buttons">
+          <a href="${website}"  target="_blank" class="btn btn-primary">Live preview</a>
+          <a href="${repository}"  target="_blank" class="btn btn-secondary">See code</a>
+        </div>
       </div>
     </article>
   `;

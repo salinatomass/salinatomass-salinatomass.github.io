@@ -20,6 +20,15 @@
 }
 .contact-container button {
   width: 70%;
+  max-width: 250px;
   border-radius: 36px;
   margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-container h2 {
+    max-width: 300px;
+    margin: 0 auto;
+    font: var(--headline-3);
+  }
 }

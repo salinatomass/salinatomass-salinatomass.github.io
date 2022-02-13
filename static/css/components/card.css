@@ -1,11 +1,13 @@
 .card {
   width: 100%;
   max-width: 400px;
+  height: fit-content;
   margin: 0 auto;
   padding: 30px 25px;
   border-radius: 20px;
   border: var(--card-border);
   box-shadow: var(--card-shadow);
+  margin-bottom: 36px;
 }
 .card-title {
   margin-bottom: 10px;

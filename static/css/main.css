@@ -31,7 +31,7 @@ body {
   padding-right: 24px;
   width: 100%;
   height: 100%;
-  max-width: 1366px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -62,4 +62,39 @@ li {
   font: var(--headline-4);
   color: var(--white);
   text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .section-title {
+    font: var(--headline-1);
+    margin-bottom: 0;
+  }
+  .section-subtitle {
+    font: var(--headline-4);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    padding-left: 83px;
+    padding-right: 83px;
+  }
+  .main {
+    display: flex;
+  }
+
+  h1 {
+    font: var(--headline-3);
+  }
+  h4 {
+    font: var(--headline-3);
+  }
+  .section-subtitle {
+    font: var(--headline-3);
+  }
 }

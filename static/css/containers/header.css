@@ -16,11 +16,12 @@
   justify-content: space-between;
 }
 .header-menu {
-  width: 30px;
+  width: 40px;
   height: 20px;
   border: none;
   outline: none;
   background-color: transparent;
+  cursor: pointer;
 }
 .header-menu img {
   width: 100%;
@@ -72,4 +73,36 @@
 }
 .header-nav ul li:last-child a {
   padding: 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    height: 100px;
+  }
+  .header-menu {
+    width: 50px;
+    height: 25px;
+  }
+  .header-nav {
+    top: 100px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header {
+    position: static;
+    width: 50%;
+    background-color: var(--white);
+  }
+  .header-menu {
+    display: none;
+  }
+  .header .wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .header-container {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
 }

@@ -1,5 +1,4 @@
-const render = (node, element) => {
-  return element.append(node);
-};
+export const query = el => document.querySelector(el);
+export const queryAll = el => document.querySelectorAll(el);
 
-export default render;
+export const render = (node, element) => element.append(node);
