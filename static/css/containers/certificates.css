@@ -128,6 +128,20 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .certificates-courses-wrapper {
+    width: 100%;
+    max-width: 1000px;
+
+    padding-top: 60px;
+    padding-bottom: 90px;
+  }
+  .certificates-courses-wrapper .line-up {
+    top: 70px;
+  }
+  .certificates-courses-wrapper .line-down {
+    bottom: 70px;
+    right: 30px;
+  }
   .certificates-courses-item p {
     font: var(--body-1);
     font-weight: 700;

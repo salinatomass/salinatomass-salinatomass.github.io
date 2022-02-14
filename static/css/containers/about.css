@@ -81,6 +81,18 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .about-container {
+    max-width: 1366px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(3, max-content);
+    grid-template-areas:
+      'aboutHeader aboutHeader'
+      'aboutDescription aboutCards'
+      'aboutContact aboutCards';
+    grid-gap: 48px;
+  }
   .about-header {
     grid-area: aboutHeader;
   }
@@ -93,14 +105,5 @@
   }
   .about-contact {
     grid-area: aboutContact;
-  }
-  .about-container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: repeat(3, max-content);
-    grid-template-areas:
-      'aboutHeader aboutHeader'
-      'aboutDescription aboutCards'
-      'aboutContact aboutCards';
   }
 }

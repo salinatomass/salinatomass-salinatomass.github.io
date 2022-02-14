@@ -18,9 +18,9 @@
 .header-menu {
   width: 40px;
   height: 20px;
+  background-color: transparent;
   border: none;
   outline: none;
-  background-color: transparent;
   cursor: pointer;
 }
 .header-menu img {
@@ -48,18 +48,18 @@
   transform: translateY(0);
 }
 .header-nav ul {
+  height: 100%;
   padding: 0 24px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 100%;
 }
 .header-nav ul li {
   border-top: 1px solid var(--white);
 }
 .header-nav ul a {
-  display: block;
   padding: 18px 0;
+  display: block;
   font: var(--link);
   color: var(--white);
   text-decoration: none;
@@ -67,9 +67,9 @@
   letter-spacing: 1.6px;
 }
 .header-nav ul li:last-child {
+  margin-top: 5px;
   border: 1px solid var(--white);
   border-radius: 4px;
-  margin-top: 5px;
 }
 .header-nav ul li:last-child a {
   padding: 10px 0;

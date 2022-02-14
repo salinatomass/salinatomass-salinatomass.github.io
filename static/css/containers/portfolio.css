@@ -52,7 +52,7 @@
   color: var(--gray);
 }
 .portfolio-projects-details p {
-  max-width: 440px;
+  max-width: 480px;
 }
 .portfolio-projects-buttons {
   display: flex;
@@ -109,11 +109,18 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .portfolio-projects-item {
+    width: 100%;
+    max-width: 1000px;
+  }
   .portfolio-projects-details h3 {
     font: var(--headline-1);
   }
   .portfolio-projects-details p {
     font: var(--headline-4);
     font-weight: 400;
+  }
+  .portfolio-header {
+    margin-bottom: 48px;
   }
 }
