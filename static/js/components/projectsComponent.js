@@ -6,8 +6,16 @@ const projectTemplate = project => {
   return `
     <article class="portfolio-projects-item">
       <div class="portfolio-projects-images">
-        <img src="${primaryImage.url}" alt="${primaryImage.alt}" />
-        <img src="${secondaryImage.url}" alt="${secondaryImage.alt}" />
+        <img 
+          class="main_picture" 
+          src="${primaryImage.url}" 
+          alt="${primaryImage.alt}" 
+        />
+        <img 
+          class="secondary_picture" 
+          src="${secondaryImage.url}" 
+          alt="${secondaryImage.alt}" 
+        />
       </div>
       <div class="portfolio-projects-description">
         <div class="portfolio-projects-details">

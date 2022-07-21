@@ -20,7 +20,7 @@
   font: var(--headline-4);
   color: var(--primary-color);
 }
-.contact-container button {
+.contact-container .btn {
   width: 70%;
   max-width: 250px;
   border-radius: 36px;

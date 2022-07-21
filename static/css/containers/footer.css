@@ -42,5 +42,6 @@
   .footer-nav ul {
     flex-direction: row;
     align-items: center;
+    gap: 72px;
   }
 }

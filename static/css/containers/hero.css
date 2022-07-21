@@ -76,6 +76,13 @@
 
 @media screen and (min-width: 1024px) {
   .hero .wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero .wrapper {
     padding-left: 83px;
     padding-right: 83px;
   }

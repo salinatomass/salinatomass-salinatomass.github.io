@@ -86,7 +86,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: repeat(3, max-content);
+    grid-template-rows: max-content max-content 1fr;
     grid-template-areas:
       'aboutHeader aboutHeader'
       'aboutDescription aboutCards'
