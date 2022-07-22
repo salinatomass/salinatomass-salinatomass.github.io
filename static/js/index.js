@@ -7,6 +7,10 @@ import skillsComponent from './components/skillsComponent.js';
 import projectsComponent from './components/projectsComponent.js';
 import certificatesComponent from './components/certificatesComponent.js';
 
+import slider from './components/carousel/slider.js';
+import devFinder from './components/carousel/devFinder.js';
+import imageComparison from './components/carousel/imageComparison.js';
+
 (async function load() {
   const [skills, projects, certificates] = await Promise.all([
     getData('/api/skills'),
@@ -41,3 +45,7 @@ import certificatesComponent from './components/certificatesComponent.js';
   toggleMenu();
   openDetails();
 })();
+
+slider();
+devFinder();
+imageComparison();

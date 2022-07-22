@@ -171,7 +171,7 @@
               >
             </div>
           </div>
-          <!-- <div class="portfolio-components">
+          <div class="portfolio-components">
             <div class="portfolio-header">
               <a
                 href="https://github.com/salinatomass/"
@@ -179,7 +179,134 @@
                 >Interactive Web Components</a
               >
             </div>
-          </div> -->
+            <div class="carousel">
+              <article class="carousel-item" style="filter: none">
+                <div class="product">
+                  <h3 class="product-title">Jordan 1 Retro High</h3>
+                  <p class="product-subtitle">Pollen</p>
+                  <ul class="product-tags">
+                    <li>100% Authentic</li>
+                    <li>Condition: New</li>
+                  </ul>
+                  <div class="product-actions">
+                    <button type="button">
+                      <svg
+                        viewBox="0 0 50 50"
+                        focusable="false"
+                        class="chakra-icon css-1qub7gy"
+                        aria-hidden="true"
+                      >
+                        <path
+                          d="M26.13 16.03H23.88V34.3H26.13V16.03Z"
+                          fill="currentColor"
+                        ></path>
+                        <path
+                          d="M34.14 23.88H15.86V26.13H34.14V23.88Z"
+                          fill="currentColor"
+                        ></path>
+                        <path
+                          d="M25 44.01C14.52 44.01 5.98999 35.48 5.98999 25C5.98999 14.52 14.52 5.98999 25 5.98999C35.48 5.98999 44.01 14.52 44.01 25C44.01 35.48 35.48 44.01 25 44.01ZM25 8.23999C15.76 8.23999 8.23999 15.76 8.23999 25C8.23999 34.24 15.76 41.76 25 41.76C34.24 41.76 41.76 34.24 41.76 25C41.76 15.76 34.24 8.23999 25 8.23999Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </button>
+                    <button type="button">
+                      <svg
+                        viewBox="0 0 50 50"
+                        focusable="false"
+                        class="chakra-icon css-1qub7gy"
+                        aria-hidden="true"
+                      >
+                        <path
+                          d="M33.5 11.3C37.5 11.3 40.8 14.6 40.8 18.6C40.8 19.5 40.6 20.4 40.3 21.2L39.9 22C38.1 25.6 30.5 33.1 25 38C19.5 33.1 11.9 25.7 10.1 22L9.7 21.1C9.4 20.3 9.2 19.4 9.2 18.5C9.2 14.5 12.5 11.2 16.5 11.2C18.9 11.2 21 12.7 23.1 15.9L25 18.8L26.9 16C29 12.9 31.2 11.3 33.5 11.3ZM33.5 9C29.8 9 27 11.8 25 14.7C23 11.6 20.2 9 16.5 9C11.3 9 7 13.3 7 18.5C7 19.7 7.2 20.8 7.6 21.9C9.3 27.5 25 41 25 41C25 41 40.7 27.5 42.3 22C42.7 20.9 42.9 19.8 42.9 18.6C43 13.3 38.7 9 33.5 9Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </button>
+                    <button type="button">
+                      <svg
+                        viewBox="0 0 50 50"
+                        focusable="false"
+                        class="chakra-icon css-1qub7gy"
+                        aria-hidden="true"
+                      >
+                        <g fill="currentColor">
+                          <path
+                            d="M21 39.7H5.5V10.3H21V13.3H8.5V36.7H21V39.7Z"
+                          ></path>
+                          <path
+                            d="M30.3 10.8L28.2 12.9L38.7 23.5H17V26.5H38.8L28.3 37.1L30.4 39.2L44.5 25L30.3 10.8Z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                  <canvas class="product-picture" id="canvasSlider"></canvas>
+                  <input
+                    class="product-slider"
+                    type="range"
+                    min="1"
+                    max="36"
+                    value="1"
+                    step="1"
+                    id="productSlider"
+                  />
+                </div>
+              </article>
+              <article class="carousel-item">
+                <div class="finder">
+                  <h3 class="finder-logo">devfinder</h3>
+                  <form class="finder-search" id="finderForm">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                        stroke="#0279fa"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M21 21L16.65 16.65"
+                        stroke="#0279fa"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <input
+                      autocomplete="given-name"
+                      type="text"
+                      name="search"
+                      id="finderSearch"
+                      placeholder="Search GitHub username..."
+                    />
+                    <button type="submit">Search</button>
+                  </form>
+                  <div class="finder-data" id="finderContainer"></div>
+                </div>
+              </article>
+              <article class="carousel-item">
+                <div class="comparison">
+                  <div class="comparison__divider" id="comparisonDivider"></div>
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value="50"
+                    class="comparison__slider"
+                    id="comparisonSlider"
+                  />
+                </div>
+              </article>
+            </div>
+            <!-- <div class="portfolio-editor"></div> -->
+          </div>
         </div>
       </div>
     </section>

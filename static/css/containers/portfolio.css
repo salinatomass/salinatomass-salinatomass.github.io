@@ -1,3 +1,5 @@
+@import url('./components.css');
+
 .portfolio-container {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -106,6 +108,9 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .portfolio-container {
+    gap: 120px;
+  }
   .portfolio-projects-item {
     width: 100%;
     max-width: 1000px;
