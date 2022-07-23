@@ -2,7 +2,7 @@ import { getData } from './utils/getData.js';
 import { render, query, queryAll } from './utils/render.js';
 import toggleMenu from './utils/toggleMenu.js';
 import openDetails from './utils/openDetails.js';
-import carousel from './utils/carousel.js';
+import carousel from './components/carousel/index.js';
 
 import skillsComponent from './components/skillsComponent.js';
 import projectsComponent from './components/projectsComponent.js';
@@ -48,6 +48,9 @@ import imageComparison from './components/carousel/imageComparison.js';
   carousel();
 })();
 
-slider();
-devFinder();
-imageComparison();
+document.addEventListener('DOMContentLoaded', () => {
+  hljs.highlightAll();
+  slider();
+  devFinder();
+  imageComparison();
+});
