@@ -4,11 +4,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 20px;
+  gap: 8px;
 }
 .finder-logo {
   font: var(--headline-4);
-  font-size: 20px;
+  line-height: 1.5;
+  font-size: 16px;
   color: #e8ebef;
 }
 .finder-search {
@@ -16,53 +17,54 @@
   align-items: center;
   justify-content: space-between;
   background-color: #1f2a48;
-  padding: 8px;
-  padding-left: 16px;
-  border-radius: 12px;
+  padding: 6px;
+  border-radius: 8px;
+}
+.finder-search svg {
+  display: none;
 }
 .finder-search input {
   width: 100%;
+  padding: 5px;
   background-color: transparent;
   border: none;
   outline: none;
+  font-size: 12px;
   color: white;
-  padding: 10px;
 }
 .finder-search input::placeholder {
   color: #d9e3f7;
 }
 .finder-search button {
   background-color: #0279fa;
-  padding-block: 8px;
-  padding-inline: 16px;
+  padding-block: 6px;
+  padding-inline: 10px;
   border: none;
   border-radius: 5px;
   color: white;
   cursor: pointer;
 }
-.finder-search svg {
-  width: 30px;
-}
 
 .finder-data {
   text-align: center;
   background-color: #1f2a48;
-  padding: 25px 20px;
-  border-radius: 12px;
+  padding: 10px;
+  border-radius: 8px;
   font: var(--body-2);
+  font-size: 12px;
 }
 .finder-data h3 {
-  font: var(--body-1);
+  font: var(--body-2);
   font-weight: 700;
 }
 .finder-data a {
-  font: var(--body-2);
+  font: var(--caption);
   color: #0279fa;
   text-decoration: none;
 }
 .finder-avatar img {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   margin-bottom: 4px;
   border: 2px solid white;
   border-radius: 50%;
@@ -73,8 +75,8 @@
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid rgba(255, 255, 255, 0.6);
-  margin-top: 25px;
-  padding-top: 25px;
+  margin-top: 10px;
+  padding-top: 10px;
 }
 .finder-stats-item {
   display: flex;
@@ -85,4 +87,50 @@
 .finder-stats-item span {
   font-weight: normal;
   color: #d9e3f7;
+}
+
+@media screen and (min-width: 768px) {
+  .finder {
+    gap: 20px;
+  }
+  .finder-logo {
+    font-size: 20px;
+  }
+  .finder-search {
+    padding: 8px;
+    padding-left: 16px;
+    border-radius: 12px;
+  }
+  .finder-search svg {
+    display: block;
+    width: 30px;
+  }
+  .finder-search input {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .finder-search button {
+    padding-block: 8px;
+    padding-inline: 16px;
+  }
+
+  .finder-data {
+    padding: 25px 20px;
+    border-radius: 12px;
+    font: var(--body-2);
+  }
+  .finder-data h3 {
+    font: var(--body-1);
+  }
+  .finder-data a {
+    font: var(--body-2);
+  }
+  .finder-avatar img {
+    width: 80px;
+    height: 80px;
+  }
+  .finder-stats {
+    margin-top: 25px;
+    padding-top: 25px;
+  }
 }

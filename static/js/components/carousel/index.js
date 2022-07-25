@@ -10,9 +10,9 @@ const $cssCode = document.getElementById('cssCode');
 const $jsCode = document.getElementById('jsCode');
 
 const carousel = () => {
-  let position = 165; // = translate(165px)
-  const minPosition = -635;
-  const maxPosition = 165;
+  let position = 0;
+  const minPosition = -800;
+  const maxPosition = 0;
   const movement = 400; // item size + gap
 
   let itemInFocus = 0; // index
@@ -72,9 +72,11 @@ const carousel = () => {
 
   $forwardButton.addEventListener('click', () => {
     moveCarouselToLeft();
+    console.log(position);
   });
   $backwardButton.addEventListener('click', () => {
     moveCarouselToRight();
+    console.log(position);
   });
 };
 
