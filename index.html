@@ -199,7 +199,7 @@
                 style="transform: translate(165px)"
                 id="carouselContainer"
               >
-                <article class="carousel-item" style="filter: none; z-index: 2">
+                <article class="carousel-item active" data-name="slider">
                   <div class="product">
                     <h3 class="product-title">Jordan 1 Retro High</h3>
                     <p class="product-subtitle">Pollen</p>
@@ -272,7 +272,7 @@
                     />
                   </div>
                 </article>
-                <article class="carousel-item">
+                <article class="carousel-item" data-name="devFinder">
                   <div class="finder">
                     <h3 class="finder-logo">devfinder</h3>
                     <form class="finder-search" id="finderForm">
@@ -310,7 +310,7 @@
                     <div class="finder-data" id="finderContainer"></div>
                   </div>
                 </article>
-                <article class="carousel-item">
+                <article class="carousel-item" data-name="comparison">
                   <div class="comparison">
                     <div
                       class="comparison__divider"
@@ -355,120 +355,17 @@
               <div class="tabs-grid">
                 <div class="tabs-content" id="tab-html">
                   <pre>
-                    <code id="htmlCode" class="tabs-code language-html">&lt;div class=&quot;product&quot;&gt;
-  &lt;h3 class=&quot;product-title&quot;&gt;Jordan 1 Retro High&lt;/h3&gt;
-  &lt;p class=&quot;product-subtitle&quot;&gt;Pollen&lt;/p&gt;
-  &lt;ul class=&quot;product-tags&quot;&gt;
-    &lt;li&gt;100% Authentic&lt;/li&gt;
-    &lt;li&gt;Condition: new&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;div class=&quot;product-actions&quot;&gt;
-    &lt;button type=&quot;button&quot;&gt;&lt;/button&gt;
-    &lt;button type=&quot;button&quot;&gt;&lt;/button&gt;
-    &lt;button type=&quot;button&quot;&gt;&lt;/button&gt;
-  &lt;/div&gt;
-  &lt;canvas class=&quot;product-picture&quot; id=&quot;canvas&quot;&gt;&lt;/canvas&gt;
-  &lt;input
-    class=&quot;product-slider&quot;
-    type=&quot;range&quot;
-    min=&quot;1&quot;
-    max=&quot;36&quot;
-    value=&quot;1&quot;
-    step=&quot;1&quot;
-    id=&quot;slider&quot;
-  /&gt;
-&lt;/div&gt;</code>
+                    <code id="htmlCode" class="tabs-code language-html"></code>
                   </pre>
                 </div>
                 <div class="tabs-content" id="tab-css">
                   <pre>
-                    <code id="cssCode" class="tabs-code language-css">.product {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font: var(--body-1);
-}
-.product-title {
-  color: var(--black);
-  font-size: 20px;
-  line-height: 26px;
-}
-.product-subtitle {
-  font-size: 16px;
-  line-height: 20px;
-  color: var(--black);
-}
-.product-tags {
-  display: flex;
-  gap: 10px;
-  list-style: none;
-}
-.product-tags li {
-  font: var(--body-2);
-  font-weight: 500;
-  padding: 0 6px;
-  color: var(--secondary-color);
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 12px;
-}
-.product-picture {
-  height: 250px;
-}
-.product-slider {
-  width: 60%;
-  height: 2px;
-  align-self: center;
-  margin-bottom: 10px;
-}
-.product-actions {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  margin-top: 5px;
-}
-.product-actions button {
-  width: 32px;
-  height: 32px;
-  border: none;
-  background-color: transparent;
-  color: var(--black);
-  cursor: pointer;
-}</code>
+                    <code id="cssCode" class="tabs-code language-css"></code>
                   </pre>
                 </div>
                 <div class="tabs-content" id="tab-js">
                   <pre>
-                    <code id="jsCode" class="tabs-code language-javascript">const slider = document.querySelector('#productSlider');
-const canvas = document.querySelector('#canvasSlider');
-const ctx = canvas.getContext('2d');
-const images = [];
-
-const handleInputSlider = e => imageRendering(e.target.value);
-
-const imageRendering = index =>
-  ctx.drawImage(images[index], 0, 0, canvas.width, canvas.height);
-
-const pageLoaded = () => {
-  for (let i = 1; i <= 36; i++) {
-    const number = i.toString().padStart(2, '00');
-    const url = `https://images.stockx.com/360/Air-Jordan-1-Retro-High-Pollen/Images/Air-Jordan-1-Retro-High-Pollen/Lv2/img${number}.jpg?auto=compress&w=480&q=90&dpr=2&updated_at=1626802470&h=320&fm=avif`;
-
-    const image = new Image();
-    image.src = url;
-    image.addEventListener('load', () => {
-      images[i] = image;
-      if (i === 1) {
-        imageRendering(i);
-      }
-    });
-  }
-
-  slider.addEventListener('input', handleInputSlider);
-};
-
-window.addEventListener('load', pageLoaded);</code>
+                    <code id="jsCode" class="tabs-code language-javascript"></code>
                   </pre>
                 </div>
               </div>

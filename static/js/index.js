@@ -48,9 +48,6 @@ import imageComparison from './components/carousel/imageComparison.js';
   carousel();
 })();
 
-document.addEventListener('DOMContentLoaded', () => {
-  hljs.highlightAll();
-  slider();
-  devFinder();
-  imageComparison();
-});
+slider();
+devFinder();
+imageComparison();
