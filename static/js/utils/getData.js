@@ -1,4 +1,4 @@
-export const BASE_API = 'https://salinatomass-api.herokuapp.com';
+export const BASE_API = 'https://salinatomass-api.onrender.com';
 
 export const getData = path => {
   return new Promise(async (resolve, reject) => {
