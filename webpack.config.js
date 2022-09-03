@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
 const Dotenv = require('dotenv-webpack')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 /** @type {import('webpack').Configuration} */
 module.exports = {
@@ -50,9 +51,14 @@ module.exports = {
           from: path.resolve(__dirname, 'assets'),
           to: 'assets',
         },
+        {
+          from: path.resolve(__dirname, 'lib'),
+          to: 'lib',
+        },
       ],
     }),
     new Dotenv(),
+    new CleanWebpackPlugin(),
   ],
   // optimization: {
   //   minimize: true,
