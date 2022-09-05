@@ -33,6 +33,8 @@ async function generateHTML() {
   const certificatesContent = certificatesComponent(certificates.data.courses)
   const certificatesPlaceholder = '<div id="certificates-placeholder"></div>'
   render({ content: certificatesContent, placeholder: certificatesPlaceholder })
+
+  console.log('🚀 public/index.html successfully generated')
 }
 
 generateHTML()

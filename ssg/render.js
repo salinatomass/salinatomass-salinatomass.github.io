@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-const TEMPLATE_PATH = 'index.template.html'
+const TEMPLATE_PATH = 'public/index.template.html'
 const GENERATED_PATH = 'public/index.html'
 
 const render = ({ content, placeholder, firstRendering = false }) => {
@@ -13,8 +13,6 @@ const render = ({ content, placeholder, firstRendering = false }) => {
   const html = `${precontent}${content}${postcontent}`
 
   fs.writeFileSync(GENERATED_PATH, html)
-
-  console.log('\n🚀 index.html successfully generated')
 }
 
 module.exports = { render }

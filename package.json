@@ -6,8 +6,8 @@
   "scripts": {
     "build": "npm run ssg && webpack",
     "serve": "serve ./dist -l 3000",
-    "ssg": "node ./ssg/index.js",
-    "dev": "webpack serve --config webpack.config.dev.js"
+    "dev": "npm run ssg && webpack serve --config webpack.config.dev.js",
+    "ssg": "node ./ssg/index.js"
   },
   "author": "Tomás Salina",
   "license": "MIT",
