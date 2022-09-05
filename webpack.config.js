@@ -52,7 +52,7 @@ module.exports = {
           to: 'assets',
         },
         {
-          from: path.resolve(__dirname, 'lib'),
+          from: path.join(__dirname, 'frontend/lib'),
           to: 'lib',
         },
       ],

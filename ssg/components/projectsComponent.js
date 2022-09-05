@@ -39,10 +39,6 @@ const projectTemplate = project => {
 const projectsComponent = projects => {
   const projectsList = projects.map(item => projectTemplate(item)).join('')
 
-  // const $projectsContainer = document.createElement('div');
-  // $projectsContainer.classList.add('portfolio-projects');
-  // $projectsContainer.innerHTML = projectsList;
-
   return `<div class="portfolio-projects">${projectsList}</div>`
 }
 

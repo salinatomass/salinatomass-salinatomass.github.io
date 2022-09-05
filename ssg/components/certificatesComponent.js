@@ -26,26 +26,6 @@ const certificatesComponent = certificates => {
     .map(item => certificateTemplate(item))
     .join('')
 
-  // const $mainCertificates = document.createElement('ul');
-  // $mainCertificates.innerHTML = primaryList;
-  // const $secondaryCertificates = document.createElement('details');
-  // $secondaryCertificates.innerHTML = summaryTemplate + secondaryList;
-
-  // const $lineUp = document.createElement('div');
-  // $lineUp.classList.add('line', 'line-up');
-  // const $lineDown = document.createElement('div');
-  // $lineDown.classList.add('line', 'line-down');
-
-  // const $certificatesContainer = document.createElement('div');
-  // $certificatesContainer.classList.add('');
-
-  // $certificatesContainer.append(
-  //   $lineUp,
-  //   $mainCertificates,
-  //   $secondaryCertificates,
-  //   $lineDown
-  // )
-
   return `
     <div class="certificates-courses-wrapper">
       <div class="line line-up"></div>

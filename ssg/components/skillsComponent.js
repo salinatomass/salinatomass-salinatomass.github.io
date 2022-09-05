@@ -23,8 +23,6 @@ const skillsComponent = skills => {
     .map(skill => skillTemplate(skill))
     .join('')
 
-  // const skillsList = skills.map(skill => skillTemplate(skill)).join('')
-
   return `
     <div class="about-cards">
       <article class="card">

@@ -1,6 +1,5 @@
-# Dependencies
+# Node
 node_modules
-lib/highlight/styles
 
 # Development
 public/index.html
