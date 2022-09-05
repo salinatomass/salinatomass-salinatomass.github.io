@@ -6,7 +6,7 @@ const Dotenv = require('dotenv-webpack')
 
 /** @type {import('webpack').Configuration} */
 module.exports = {
-  entry: './src/index.js',
+  entry: './frontend/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'app.js',
@@ -61,7 +61,7 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         {
-          from: path.resolve(__dirname, 'assets'),
+          from: path.join(__dirname, 'frontend/assets'),
           to: 'assets',
         },
         {
