@@ -1,6 +1,7 @@
-export const BASE_API = process.env.API_URL
+const BASE_API = 'https://salinatomass-api.onrender.com'
+const fetch = require('isomorphic-fetch')
 
-export const getData = path => {
+const getData = path => {
   return new Promise(async (resolve, reject) => {
     try {
       const response = await fetch(`${BASE_API}${path}`)
@@ -11,3 +12,5 @@ export const getData = path => {
     }
   })
 }
+
+module.exports = { getData }

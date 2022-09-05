@@ -1,7 +1,7 @@
 const projectTemplate = project => {
-  const { id, title, role, description, website, repository } = project;
-  const primaryImage = project.images[0];
-  const secondaryImage = project.images[1];
+  const { id, title, role, description, website, repository } = project
+  const primaryImage = project.images[0]
+  const secondaryImage = project.images[1]
 
   return `
     <article class="portfolio-projects-item">
@@ -33,17 +33,17 @@ const projectTemplate = project => {
         </div>
       </div>
     </article>
-  `;
-};
+  `
+}
 
 const projectsComponent = projects => {
-  const projectsList = projects.map(item => projectTemplate(item)).join('');
+  const projectsList = projects.map(item => projectTemplate(item)).join('')
 
-  const $projectsContainer = document.createElement('div');
-  $projectsContainer.classList.add('portfolio-projects');
-  $projectsContainer.innerHTML = projectsList;
+  // const $projectsContainer = document.createElement('div');
+  // $projectsContainer.classList.add('portfolio-projects');
+  // $projectsContainer.innerHTML = projectsList;
 
-  return $projectsContainer;
-};
+  return `<div class="portfolio-projects">${projectsList}</div>`
+}
 
-export default projectsComponent;
+module.exports = projectsComponent
