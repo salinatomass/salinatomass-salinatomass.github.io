@@ -201,14 +201,14 @@
               </button>
               <div class="carousel-container" id="carouselContainer">
                 <article class="carousel-item active" data-name="slider">
-                  <div class="product">
-                    <h3 class="product-title">Jordan 1 Retro High</h3>
-                    <p class="product-subtitle">Pollen</p>
-                    <ul class="product-tags">
+                  <div class="slider">
+                    <h3 class="slider__title">Jordan 1 Retro High</h3>
+                    <p class="slider__subtitle">Pollen</p>
+                    <ul class="slider__tags">
                       <li>100% Authentic</li>
                       <li>Condition: New</li>
                     </ul>
-                    <div class="product-actions">
+                    <div class="slider__actions">
                       <button type="button">
                         <svg
                           viewBox="0 0 50 50"
@@ -261,9 +261,9 @@
                         </svg>
                       </button>
                     </div>
-                    <canvas class="product-picture" id="canvasSlider"></canvas>
+                    <canvas class="slider__picture" id="canvasSlider"></canvas>
                     <input
-                      class="product-slider"
+                      class="slider__input"
                       type="range"
                       min="1"
                       max="36"
@@ -274,9 +274,9 @@
                   </div>
                 </article>
                 <article class="carousel-item" data-name="devFinder">
-                  <div class="finder">
-                    <h3 class="finder-logo">devfinder</h3>
-                    <form class="finder-search" id="finderForm">
+                  <div class="devfinder">
+                    <h3 class="devfinder__logo">devfinder</h3>
+                    <form class="devfinder__search" id="finderForm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -308,21 +308,18 @@
                       />
                       <button type="submit">Search</button>
                     </form>
-                    <div class="finder-data" id="finderContainer"></div>
+                    <div class="devfinder__data" id="finderContainer"></div>
                   </div>
                 </article>
-                <article class="carousel-item" data-name="comparison">
-                  <div class="comparison">
-                    <div
-                      class="comparison__divider"
-                      id="comparisonDivider"
-                    ></div>
+                <article class="carousel-item" data-name="filter">
+                  <div class="filter">
+                    <div class="filter__divider" id="comparisonDivider"></div>
                     <input
                       type="range"
                       min="0"
                       max="100"
                       value="50"
-                      class="comparison__slider"
+                      class="filter__slider"
                       id="comparisonSlider"
                     />
                   </div>

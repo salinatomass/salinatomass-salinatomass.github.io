@@ -1,4 +1,4 @@
-import { slider, devFinder, comparison } from './snippets.js'
+import { slider, devFinder, filter } from './snippets.js'
 
 const $carouselContainer = document.getElementById('carouselContainer')
 const $carouselItemList = document.querySelectorAll('.carousel-item')
@@ -38,8 +38,8 @@ const carousel = () => {
       case 'devFinder':
         updateCodeTabs(devFinder)
         break
-      case 'comparison':
-        updateCodeTabs(comparison)
+      case 'filter':
+        updateCodeTabs(filter)
         break
     }
   }
@@ -72,11 +72,9 @@ const carousel = () => {
 
   $forwardButton.addEventListener('click', () => {
     moveCarouselToLeft()
-    console.log(position)
   })
   $backwardButton.addEventListener('click', () => {
     moveCarouselToRight()
-    console.log(position)
   })
 }
 

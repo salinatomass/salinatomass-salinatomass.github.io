@@ -1,4 +1,4 @@
-.finder {
+.devfinder {
   width: 100%;
   height: 100%;
   display: flex;
@@ -6,13 +6,13 @@
   justify-content: space-between;
   gap: 8px;
 }
-.finder-logo {
+.devfinder__logo {
   font: var(--headline-4);
   line-height: 1.5;
   font-size: 16px;
   color: #e8ebef;
 }
-.finder-search {
+.devfinder__search {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,10 +20,10 @@
   padding: 6px;
   border-radius: 8px;
 }
-.finder-search svg {
+.devfinder__search svg {
   display: none;
 }
-.finder-search input {
+.devfinder__search input {
   width: 100%;
   padding: 5px;
   background-color: transparent;
@@ -32,10 +32,10 @@
   font-size: 12px;
   color: white;
 }
-.finder-search input::placeholder {
+.devfinder__search input::placeholder {
   color: #d9e3f7;
 }
-.finder-search button {
+.devfinder__search button {
   background-color: #0279fa;
   padding-block: 6px;
   padding-inline: 10px;
@@ -45,7 +45,7 @@
   cursor: pointer;
 }
 
-.finder-data {
+.devfinder__data {
   text-align: center;
   background-color: #1f2a48;
   padding: 10px;
@@ -53,16 +53,16 @@
   font: var(--body-2);
   font-size: 12px;
 }
-.finder-data h3 {
+.devfinder__data h3 {
   font: var(--body-2);
   font-weight: 700;
 }
-.finder-data a {
+.devfinder__data a {
   font: var(--caption);
   color: #0279fa;
   text-decoration: none;
 }
-.finder-avatar img {
+.devfinder__avatar img {
   width: 50px;
   height: 50px;
   margin-bottom: 4px;
@@ -70,7 +70,7 @@
   border-radius: 50%;
   object-fit: cover;
 }
-.finder-stats {
+.devfinder__stats {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,58 +78,58 @@
   margin-top: 10px;
   padding-top: 10px;
 }
-.finder-stats-item {
+.devfinder__stats-item {
   display: flex;
   flex-direction: column;
   text-align: left;
   font-weight: bold;
 }
-.finder-stats-item span {
+.devfinder__stats-item span {
   font-weight: normal;
   color: #d9e3f7;
 }
 
 @media screen and (min-width: 768px) {
-  .finder {
+  .devfinder__ {
     gap: 20px;
   }
-  .finder-logo {
+  .devfinder__logo {
     font-size: 20px;
   }
-  .finder-search {
+  .devfinder__search {
     padding: 8px;
     padding-left: 16px;
     border-radius: 12px;
   }
-  .finder-search svg {
+  .devfinder__search svg {
     display: block;
     width: 30px;
   }
-  .finder-search input {
+  .devfinder__search input {
     padding: 10px;
     font-size: 14px;
   }
-  .finder-search button {
+  .devfinder__search button {
     padding-block: 8px;
     padding-inline: 16px;
   }
 
-  .finder-data {
+  .devfinder__data {
     padding: 25px 20px;
     border-radius: 12px;
     font: var(--body-2);
   }
-  .finder-data h3 {
+  .devfinder__data h3 {
     font: var(--body-1);
   }
-  .finder-data a {
+  .devfinder__data a {
     font: var(--body-2);
   }
-  .finder-avatar img {
+  .devfinder__avatar img {
     width: 80px;
     height: 80px;
   }
-  .finder-stats {
+  .devfinder__stats {
     margin-top: 25px;
     padding-top: 25px;
   }

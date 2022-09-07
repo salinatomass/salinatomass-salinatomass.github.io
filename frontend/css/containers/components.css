@@ -1,6 +1,6 @@
 @import url('../components/carousel/slider.css');
-@import url('../components/carousel/dev-finder.css');
-@import url('../components/carousel/image-comparison.css');
+@import url('../components/carousel/devfinder.css');
+@import url('../components/carousel/filter.css');
 
 .portfolio-components .portfolio-header {
   justify-content: flex-end;
