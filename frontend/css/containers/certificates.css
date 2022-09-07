@@ -1,7 +1,7 @@
 @import url('../components/line.css');
 
 .certificates-container {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 .certificates-courses {
   display: flex;
@@ -128,6 +128,9 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .certificates-container {
+    padding-top: 60px;
+  }
   .certificates-courses-wrapper {
     width: 100%;
     max-width: 1000px;
