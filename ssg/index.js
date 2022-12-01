@@ -1,21 +1,17 @@
 // # npm run ssg
 
-const { getData } = require('./getData')
 const { render } = require('./render')
 
 const skillsComponent = require('./components/skillsComponent')
 const projectsComponent = require('./components/projectsComponent')
 const certificatesComponent = require('./components/certificatesComponent')
 
+const skills = require('./data/skills.json')
+const projects = require('./data/projects.json')
+const certificates = require('./data/certificates.json')
+
 async function generateHTML() {
-  const [skills, projects, certificates] = await Promise.all([
-    getData('/api/skills'),
-    getData('/api/projects'),
-    getData('/api/certificates'),
-  ])
-
   // _____SKILLS
-
   const skillsContent = skillsComponent(skills.data)
   const skillsPlaceholder = '<div id="skills-placeholder"></div>'
   render({

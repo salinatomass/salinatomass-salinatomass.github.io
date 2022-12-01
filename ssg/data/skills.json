@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "name": "HTML",
+      "category": "frontend",
+      "image": {
+        "alt": "HTML logo",
+        "url": "/assets/skills/html.svg"
+      }
+    },
+    {
+      "name": "CSS",
+      "category": "frontend",
+      "image": {
+        "alt": "CSS logo",
+        "url": "/assets/skills/css.svg"
+      }
+    },
+    {
+      "name": "JavaScript",
+      "category": "frontend",
+      "image": {
+        "alt": "JavaScript logo",
+        "url": "/assets/skills/js.svg"
+      }
+    },
+    {
+      "name": "TypeScript",
+      "category": "frontend",
+      "image": {
+        "alt": "TypeScript logo",
+        "url": "/assets/skills/typescript.svg"
+      }
+    },
+    {
+      "name": "React",
+      "category": "frontend",
+      "image": {
+        "alt": "React logo",
+        "url": "/assets/skills/react.svg"
+      }
+    },
+    {
+      "name": "Redux",
+      "category": "frontend",
+      "image": {
+        "alt": "Redux logo",
+        "url": "/assets/skills/redux.svg"
+      }
+    },
+    {
+      "name": "TailwindCSS",
+      "category": "frontend",
+      "image": {
+        "alt": "TailwindCSS logo",
+        "url": "/assets/skills/tailwind.svg"
+      }
+    },
+    {
+      "name": "Bootstrap",
+      "category": "frontend",
+      "image": {
+        "alt": "Bootstrap logo",
+        "url": "/assets/skills/bootstrap.svg"
+      }
+    },
+    {
+      "name": "Sass",
+      "category": "frontend",
+      "image": {
+        "alt": "Sass logo",
+        "url": "/assets/skills/sass.svg"
+      }
+    },
+
+    {
+      "name": "Figma",
+      "category": "complementary",
+      "image": {
+        "alt": "Figma logo",
+        "url": "/assets/skills/figma.svg"
+      }
+    },
+    {
+      "name": "Webpack",
+      "category": "complementary",
+      "image": {
+        "alt": "Webpack logo",
+        "url": "/assets/skills/webpack.svg"
+      }
+    },
+    {
+      "name": "Express",
+      "category": "complementary",
+      "image": {
+        "alt": "Express logo",
+        "url": "/assets/skills/express.svg"
+      }
+    },
+    {
+      "name": "MongoDB",
+      "category": "complementary",
+      "image": {
+        "alt": "MongoDB logo",
+        "url": "/assets/skills/mongodb.svg"
+      }
+    },
+    {
+      "name": "Git",
+      "category": "complementary",
+      "image": {
+        "alt": "Git logo",
+        "url": "/assets/skills/git.svg"
+      }
+    }
+  ]
+}
