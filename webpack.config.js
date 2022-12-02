@@ -7,7 +7,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 /** @type {import('webpack').Configuration} */
 module.exports = {
-  entry: './frontend/index.js',
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'app.js',
@@ -48,11 +48,11 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         {
-          from: path.join(__dirname, 'frontend/assets'),
+          from: path.join(__dirname, 'src/assets'),
           to: 'assets',
         },
         {
-          from: path.join(__dirname, 'frontend/lib'),
+          from: path.join(__dirname, 'src/lib'),
           to: 'lib',
         },
       ],
