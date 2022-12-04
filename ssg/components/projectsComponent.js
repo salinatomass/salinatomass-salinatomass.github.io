@@ -22,7 +22,7 @@ const projectTemplate = project => {
           <span>0${id + 1}</span>
           <h3>${title}</h3>
           <div class="portfolio-projects-skill">
-            <img src="./assets/bullet.svg" alt="Bullet gray" />
+            <img width="9" height="10" src="./assets/bullet.svg" alt="Bullet gray" />
             <h4>${role}</h4>
           </div>
           <p>${description}</p>
