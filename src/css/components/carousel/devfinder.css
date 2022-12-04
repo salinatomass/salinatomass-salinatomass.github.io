@@ -41,7 +41,7 @@
   padding-inline: 10px;
   border: none;
   border-radius: 5px;
-  color: white;
+  color: #000000;
   cursor: pointer;
 }
 
@@ -59,7 +59,7 @@
 }
 .devfinder__data a {
   font: var(--caption);
-  color: #0279fa;
+  color: #abc6e3;
   text-decoration: none;
 }
 .devfinder__avatar img {

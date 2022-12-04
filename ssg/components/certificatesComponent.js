@@ -32,7 +32,7 @@ const certificatesComponent = certificates => {
       <ul>${primaryList}</ul>
       <details>
         ${summaryTemplate}
-        ${secondaryList}
+        <ul>${secondaryList}</ul>
       </details>
       <div class="line line-down"></div>
     </div>

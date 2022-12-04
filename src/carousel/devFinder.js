@@ -21,7 +21,7 @@ const devFinder = () => {
   const userTemplate = user => {
     return `
           <picture class="devfinder__avatar">
-            <img src=${user.avatar_url} loading="lazy" />
+            <img src=${user.avatar_url} alt="${user.name} avatar" loading="lazy" />
           </picture>
           <h3>${user.name}</h3>
           <a href=${user.html_url} target="_blank">@${user.login}</a>

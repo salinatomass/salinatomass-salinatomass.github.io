@@ -27,7 +27,13 @@
             <div class="logo">
               <p class="logo-text">salinatomass</p>
             </div>
-            <button class="header-menu" id="menu">
+            <button
+              type="button"
+              class="header-menu"
+              id="menu"
+              title="Menu"
+              aria-label="Burger menu"
+            >
               <img src="./assets/burger-menu.svg" alt="" />
             </button>
             <nav class="header-nav" id="nav">
@@ -208,7 +214,12 @@
                       <li>Condition: New</li>
                     </ul>
                     <div class="slider__actions">
-                      <button type="button">
+                      <button
+                        type="button"
+                        id="save"
+                        title="Save"
+                        aria-label="Save"
+                      >
                         <svg
                           viewBox="0 0 50 50"
                           focusable="false"
@@ -229,7 +240,12 @@
                           ></path>
                         </svg>
                       </button>
-                      <button type="button">
+                      <button
+                        type="button"
+                        id="like"
+                        title="Like"
+                        aria-label="Like"
+                      >
                         <svg
                           viewBox="0 0 50 50"
                           focusable="false"
@@ -242,7 +258,12 @@
                           ></path>
                         </svg>
                       </button>
-                      <button type="button">
+                      <button
+                        type="button"
+                        id="share"
+                        title="Share"
+                        aria-label="Share"
+                      >
                         <svg
                           viewBox="0 0 50 50"
                           focusable="false"
@@ -269,6 +290,7 @@
                       value="1"
                       step="1"
                       id="productSlider"
+                      aria-label="Slider"
                     />
                   </div>
                 </article>
@@ -320,6 +342,7 @@
                       value="50"
                       class="filter__slider"
                       id="comparisonSlider"
+                      aria-label="Divider"
                     />
                   </div>
                 </article>
