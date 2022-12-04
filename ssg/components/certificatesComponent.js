@@ -5,24 +5,24 @@ const summaryTemplate = `
   </summary>
 `
 
-const certificateTemplate = certificate => {
-  const { name, image } = certificate
+const certificateTemplate = item => {
+  const { name, image, certificate } = item
 
   return `
     <li class="certificates-courses-item">
       <img src="${image.url}" alt="${image.alt}" />
-      <p>${name}</p>
+      <a href="${certificate}" target="_blank">${name}</a>
     </li>
   `
 }
 
 const certificatesComponent = certificates => {
   const primaryList = certificates
-    .filter(item => item.id < 10)
+    .filter(item => item.id <= 10)
     .map(item => certificateTemplate(item))
     .join('')
   const secondaryList = certificates
-    .filter(item => item.id >= 10)
+    .filter(item => item.id > 10)
     .map(item => certificateTemplate(item))
     .join('')
 

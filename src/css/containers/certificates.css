@@ -21,11 +21,15 @@
   width: 36px;
   height: 36px;
 }
-.certificates-courses-item p {
+.certificates-courses-item a {
   font-size: 16px;
   color: var(--white);
   font-weight: 700;
   line-height: 1.2;
+  text-decoration: none;
+}
+.certificates-courses-item a:hover {
+  text-decoration: underline;
 }
 
 .certificates-courses details {
@@ -145,7 +149,7 @@
     bottom: 70px;
     right: 30px;
   }
-  .certificates-courses-item p {
+  .certificates-courses-item a {
     font: var(--body-1);
     font-weight: 700;
   }

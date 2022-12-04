@@ -10,184 +10,184 @@
     },
     "courses": [
       {
-        "id": 0,
-        "name": "Curso Gratis de Programacion Basica",
-        "image": {
-          "alt": "Platzi Course: Gratis de Programacion Basica",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/prog-basica.png"
-        },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
-      },
-      {
         "id": 1,
-        "name": "Fundamentos de Ingeniería de Software",
+        "name": "HTML and CSS Definitive Course",
         "image": {
-          "alt": "Platzi Course: Fundamentos de Ingeniería de Software",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/fundamentos.png"
+          "alt": "Platzi Course: HTML and CSS Definitive",
+          "url": "/assets/certificates/definitive.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://platzi.com/p/salinatomass/curso/2008-html-css/diploma/detalle/"
       },
       {
         "id": 2,
-        "name": "Curso Definitivo de HTML y CSS",
+        "name": "Responsive Design Course",
         "image": {
-          "alt": "Platzi Course: Definitivo de HTML y CSS",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/definitivo.png"
+          "alt": "Platzi Course: Responsive Design",
+          "url": "/assets/certificates/mobile.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://platzi.com/p/salinatomass/curso/2030-mobile-first/diploma/detalle/"
       },
       {
         "id": 3,
-        "name": "Curso de Responsive Design",
+        "name": "CSS Preprocessors Course",
         "image": {
-          "alt": "Platzi Course: Responsive Design",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/mobile-first.png"
+          "alt": "Platzi Course: CSS Preprocessors",
+          "url": "/assets/certificates/preprocessors.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://platzi.com/p/salinatomass/curso/1665-preprocesadores/diploma/detalle/"
       },
       {
         "id": 4,
-        "name": "Curso de Frontend Developer",
+        "name": "Git and GitHub Course",
         "image": {
-          "alt": "Platzi Course: Frontend Developer",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/frontend.png"
+          "alt": "Platzi Course: Git and GitHub",
+          "url": "/assets/certificates/git.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://platzi.com/p/salinatomass/curso/1557-git-github/diploma/detalle/"
       },
       {
         "id": 5,
-        "name": "Curso de Preprocesadores CSS",
+        "name": "Interactive Design with Figma Course",
         "image": {
-          "alt": "Platzi Course: Preprocesadores CSS",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/preprocesadores.png"
+          "alt": "LeonidasEstebanInteractive Design with Figma",
+          "url": "/assets/certificates/figma.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://d1ngjctyujvjjy.cloudfront.net/certificates/2021/09/15/figma/ac52c3b8-8198-4f95-9193-810e671a3d18.pdf"
       },
       {
         "id": 6,
-        "name": "Curso de Git y GitHub",
+        "name": "JavaScript Fundamentals Course",
         "image": {
-          "alt": "Platzi Course: Git y GitHub",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/git.png"
+          "alt": "Platzi Course: JavaScript Fundamentals",
+          "url": "/assets/certificates/basic-js.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://platzi.com/p/salinatomass/curso/1814-basico-javascript/diploma/detalle/"
       },
       {
         "id": 7,
-        "name": "Curso de Diseño para Developers",
+        "name": "JavaScript Professional Course",
         "image": {
-          "alt": "Platzi Course: Diseño para Developers",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/diseño-programadores.png"
+          "alt": "Platzi Course: JavaScript Professional",
+          "url": "/assets/certificates/pro-js.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://platzi.com/p/salinatomass/curso/1642-javascript-profesional/diploma/detalle/"
       },
       {
         "id": 8,
-        "name": "Curso de diseño interactivo con Figma",
+        "name": "Web Components Course",
         "image": {
-          "alt": "LeonidasEsteban.com Course: Diseño interactivo con Figma",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/figma.png"
+          "alt": "Platzi Course: Web Components",
+          "url": "/assets/certificates/web-comp.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://platzi.com/p/salinatomass/curso/2199-web-components-javascript/diploma/detalle/"
       },
       {
         "id": 9,
-        "name": "Fundamentos de JavaScript",
+        "name": "Webpack Course",
         "image": {
-          "alt": "Platzi Course: Fundamentos de JavaScript",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/fundamentos-js.png"
+          "alt": "Platzi Course: Webpack",
+          "url": "/assets/certificates/webpack.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://platzi.com/p/salinatomass/curso/2242-webpack/diploma/detalle/"
       },
       {
         "id": 10,
-        "name": "Curso de ECMAScript 6+",
+        "name": "TypeScript Fundamentals Course",
         "image": {
-          "alt": "Platzi Course: ECMAScript 6+",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/ecma.png"
+          "alt": "Platzi Course: TypeScript Fundamentals",
+          "url": "/assets/certificates/typescript.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://platzi.com/p/salinatomass/curso/2878-typescript/diploma/detalle/"
       },
       {
         "id": 11,
-        "name": "Curso de Asincronismo con JavaScript",
+        "name": "SPA with JavaScript Vanilla Course",
         "image": {
-          "alt": "Platzi Course: Asincronismo con JavaScript",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/asincronismo.png"
+          "alt": "Platzi Course: SPA with JavaScript Vanilla",
+          "url": "/assets/certificates/spa.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://platzi.com/p/salinatomass/curso/1787-spa-javascript/diploma/detalle/"
       },
       {
         "id": 12,
-        "name": "Curso de Closures y Scope en JavaScript",
+        "name": "React.js Introduction Course",
         "image": {
-          "alt": "Platzi Course: Closures y Scope en JavaScript",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/closures.png"
+          "alt": "Platzi Course: React.js Introduction",
+          "url": "/assets/certificates/intro-react.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://platzi.com/p/salinatomass/curso/2444-react/diploma/detalle/"
       },
       {
         "id": 13,
-        "name": "Curso Profesional de JavaScript",
+        "name": "Professional State in React.js Course",
         "image": {
-          "alt": "Platzi Course: Profesional de JavaScript",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/profesional-js.png"
+          "alt": "Platzi Course: Professional State in React.js",
+          "url": "/assets/certificates/react-state.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://platzi.com/p/salinatomass/curso/2597-react-estado/diploma/detalle/"
       },
       {
         "id": 14,
-        "name": "Curso de SPA con JavaScript Vanilla",
+        "name": "Professional React Hooks Course",
         "image": {
-          "alt": "Platzi Course: SPA con JavaScript Vanilla",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/spa.png"
+          "alt": "Platzi Course: Professional React Hooks",
+          "url": "/assets/certificates/hooks.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://platzi.com/p/salinatomass/curso/2118-react-hooks/diploma/detalle/"
       },
       {
         "id": 15,
-        "name": "Curso de React.js",
+        "name": "Progressive Web Apps with React.js Course",
         "image": {
-          "alt": "Platzi Course: React.js",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/react.png"
+          "alt": "Platzi Course: Progressive Web Apps with React.js",
+          "url": "/assets/certificates/pwa.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://platzi.com/p/salinatomass/curso/1313-pwa-react-js/diploma/detalle/"
       },
       {
         "id": 16,
-        "name": "Curso Práctico de React.js",
+        "name": "Unit Testing with Jest in React.js Course",
         "image": {
-          "alt": "Platzi Course: Práctico de React.js",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/practico-react.png"
+          "alt": "Platzi Course: Unit Testing with Jest in React.js",
+          "url": "/assets/certificates/jest-react.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://platzi.com/p/salinatomass/curso/1788-jest/diploma/detalle/"
       },
       {
         "id": 17,
-        "name": "Curso de React Router y Redux",
+        "name": "TailwindCSS Course",
         "image": {
-          "alt": "Platzi Course: Curso de React Router y Redux",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/router-redux.png"
+          "alt": "Platzi Course: TailwindCSS",
+          "url": "/assets/certificates/tailwind.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://platzi.com/p/salinatomass/curso/2702-tailwind/diploma/detalle/"
       },
       {
         "id": 18,
-        "name": "Curso de Fundamentos de Node.js",
+        "name": "Backend with Node.js Course",
         "image": {
-          "alt": "Platzi Course: Fundamentos de Node.js",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/fundamentos-node.png"
+          "alt": "Platzi Course: Backend with Node.js",
+          "url": "/assets/certificates/node.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://platzi.com/p/salinatomass/curso/2485-backend-nodejs/diploma/detalle/"
       },
       {
         "id": 19,
-        "name": "Curso de Backend con Node.js",
+        "name": "Server Side Rendering with Express Course",
         "image": {
-          "alt": "Platzi Course: Backend con Node.js",
-          "url": "https://salinatomass-api.onrender.com/images/certificates/backend-node.png"
+          "alt": "Platzi Course: Server Side Rendering with Express",
+          "url": "/assets/certificates/ssr.webp"
         },
-        "certificate": "https://platzi.com/p/salinatomass/curso/1050-programacion-basica/diploma/detalle/"
+        "certificate": "https://platzi.com/p/salinatomass/curso/1839-ssr/diploma/detalle/"
+      },
+      {
+        "id": 20,
+        "name": "Authentication with Passport.js Course",
+        "image": {
+          "alt": "Platzi Course: Authentication with Passport.js",
+          "url": "/assets/certificates/passport.webp"
+        },
+        "certificate": "https://platzi.com/p/salinatomass/curso/1649-passport-2019/diploma/detalle/"
       }
     ]
   }
