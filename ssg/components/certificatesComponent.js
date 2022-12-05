@@ -1,7 +1,7 @@
 const summaryTemplate = `
   <summary>
     <p>See more</p>
-    <img src="./assets/arrow-down.svg" alt="Arrow down" />
+    <img width="24" height="25" src="./assets/arrow-down.svg" alt="Arrow down" />
   </summary>
 `
 
