@@ -7,14 +7,20 @@ const projectTemplate = project => {
     <article class="portfolio-projects-item">
       <div class="portfolio-projects-images">
         <img 
-          class="main_picture" 
-          src="${primaryImage.url}" 
-          alt="${primaryImage.alt}" 
+          class="main_picture"
+          srcset="${primaryImage.original},
+                  ${primaryImage.medium} 2x,
+                  ${primaryImage.large} 3x"
+          src="${primaryImage.original}"
+          alt="${primaryImage.alt}"
         />
         <img 
-          class="secondary_picture" 
-          src="${secondaryImage.url}" 
-          alt="${secondaryImage.alt}" 
+          class="secondary_picture"
+          srcset="${secondaryImage.original},
+                  ${secondaryImage.medium} 2x,
+                  ${secondaryImage.large} 3x"
+          src="${secondaryImage.original}"
+          alt="${secondaryImage.alt}"
         />
       </div>
       <div class="portfolio-projects-description">

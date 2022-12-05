@@ -8,11 +8,15 @@
       "images": [
         {
           "alt": "Weather app main content",
-          "url": "/assets/projects/project-2.1.png"
+          "original": "/assets/projects/project-1.1.png",
+          "medium": "/assets/projects/x2/project-1.1.png",
+          "large": "/assets/projects/x3/project-1.1.png"
         },
         {
           "alt": "Weather App today's hightlights",
-          "url": "/assets/projects/project-2.2.png"
+          "original": "/assets/projects/project-1.2.png",
+          "medium": "/assets/projects/x2/project-1.2.png",
+          "large": "/assets/projects/x3/project-1.2.png"
         }
       ],
       "website": "https://weather-dev-app.netlify.app/",
@@ -25,12 +29,16 @@
       "description": "A high-performance application to discover new ideas by browsing an infinite scroll interface.",
       "images": [
         {
-          "alt": "PlatziVideo home",
-          "url": "/assets/projects/project-1.1.png"
+          "alt": "Pintersest Clone when searching",
+          "original": "/assets/projects/project-2.1.png",
+          "medium": "/assets/projects/x2/project-2.1.png",
+          "large": "/assets/projects/x3/project-2.1.png"
         },
         {
-          "alt": "PlatziVideo login",
-          "url": "/assets/projects/project-1.2.png"
+          "alt": "Pintersest Clone home",
+          "original": "/assets/projects/project-2.2.png",
+          "medium": "/assets/projects/x2/project-2.2.png",
+          "large": "/assets/projects/x3/project-2.2.png"
         }
       ],
       "website": "https://pinterest-clon.netlify.app/",
@@ -43,12 +51,16 @@
       "description": "A mobile first and beautifull landing page to store your most important files in one secure location.",
       "images": [
         {
-          "alt": "Bookmark home",
-          "url": "/assets/projects/project-3.1.png"
+          "alt": "Fylo home",
+          "original": "/assets/projects/project-3.1.png",
+          "medium": "/assets/projects/x2/project-3.1.png",
+          "large": "/assets/projects/x3/project-3.1.png"
         },
         {
-          "alt": "Bookmark extensions",
-          "url": "/assets/projects/project-3.2.png"
+          "alt": "Fylo home",
+          "original": "/assets/projects/project-3.2.png",
+          "medium": "/assets/projects/x2/project-3.2.png",
+          "large": "/assets/projects/x3/project-3.2.png"
         }
       ],
       "website": "https://salinatomass.github.io/fylo-challenge/",
