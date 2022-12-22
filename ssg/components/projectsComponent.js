@@ -5,7 +5,7 @@ const projectTemplate = project => {
 
   return `
     <article class="portfolio-projects-item">
-      <div class="portfolio-projects-images">
+      <a href="${website}" target="_blank" class="portfolio-projects-images">
         <img 
           class="main_picture"
           srcset="${primaryImage.original},
@@ -22,7 +22,7 @@ const projectTemplate = project => {
           src="${secondaryImage.original}"
           alt="${secondaryImage.alt}"
         />
-      </div>
+      </a>
       <div class="portfolio-projects-description">
         <div class="portfolio-projects-details">
           <span>0${id + 1}</span>
@@ -34,8 +34,8 @@ const projectTemplate = project => {
           <p>${description}</p>
         </div>
         <div class="portfolio-projects-buttons">
-          <a href="${website}"  target="_blank" class="btn btn-primary">Live preview</a>
-          <a href="${repository}"  target="_blank" class="btn btn-secondary">See code</a>
+          <a href="${website}" target="_blank" class="btn btn-primary">Live preview</a>
+          <a href="${repository}" target="_blank" class="btn btn-secondary">See code</a>
         </div>
       </div>
     </article>
