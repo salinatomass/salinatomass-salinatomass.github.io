@@ -47,6 +47,7 @@ const carousel = () => {
   const moveCarouselToLeft = () => {
     if (position === minPosition) return
 
+    $backwardButton.disabled = false
     position -= movement
     $carouselContainer.style.transform = `translate(${position}px)`
 
@@ -54,10 +55,14 @@ const carousel = () => {
     itemInFocus += 1
     showItem($carouselItemList[itemInFocus])
     setCodeHighlight($carouselItemList[itemInFocus])
+
+    if (position === minPosition) $forwardButton.disabled = true
   }
 
   const moveCarouselToRight = () => {
     if (position === maxPosition) return
+
+    $forwardButton.disabled = false
 
     position += movement
     $carouselContainer.style.transform = `translate(${position}px)`
@@ -66,6 +71,8 @@ const carousel = () => {
     itemInFocus -= 1
     showItem($carouselItemList[itemInFocus])
     setCodeHighlight($carouselItemList[itemInFocus])
+
+    if (position === maxPosition) $backwardButton.disabled = true
   }
 
   updateCodeTabs(slider)

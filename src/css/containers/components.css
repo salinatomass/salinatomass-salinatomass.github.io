@@ -40,6 +40,9 @@
   right: 0;
   transform: rotate(180deg);
 }
+.carousel-button:disabled {
+  opacity: 0.2;
+}
 
 .carousel-item {
   position: relative;
