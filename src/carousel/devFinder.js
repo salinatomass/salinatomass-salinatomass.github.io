@@ -49,7 +49,7 @@ const devFinder = () => {
     $search.value = ''
   }
 
-  window.addEventListener('load', () => loadUser('salinatomass'))
+  window.addEventListener('load', () => loadUser('tomassalina'))
   $userForm.addEventListener('submit', searchUser)
 }
 
